@@ -42,7 +42,7 @@ class VideoProcessor:
         
             #count number of landmarks we actually detected on image
 
-            if i==0:
+                if i==0:
                     print("Total number of face landmarks detected ",len(s_.parts()))
                     
                     drawPoints(img, s_, 0, 16)           # Jaw line
